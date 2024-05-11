@@ -21,7 +21,7 @@ func run() error {
 		return err
 	}
 
-	log.Println("server is running")
+	log.Println("server is running...")
 	return server.ListenAndServe()
 }
 

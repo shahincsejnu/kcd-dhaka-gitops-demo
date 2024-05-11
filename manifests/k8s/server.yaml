@@ -15,7 +15,7 @@ spec:
       containers:
         - name: server
           imagePullPolicy: Always
-          image: shahincsejnu/server:584f1e6
+          image: shahincsejnu/server:45a52f9
           ports:
             - containerPort: 8080
 ---
